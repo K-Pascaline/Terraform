@@ -9,7 +9,7 @@ def create_github_repo(Depot_terraform):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Utilisation : python create_github_repo.py <Depot_terraform>")
+        print("Utilisation : python script.py Depot_terraform")
         sys.exit(1)
 
     Depot_terraform = sys.argv[1]
